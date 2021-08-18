@@ -1,16 +1,8 @@
-# party
+# Explain Word Game
 
-A new Flutter project.
+This is my first Flutter app. This is a game for teams of 2 players. One player from the team explains a random word and the other one has to guess it. The game is
+divided in rounds and every team has 4 lives. At the end of each round the team that is currently playing loses 1 life. The winner is the one team that lasts the longest. The game is currently adapted only for Croatian language.
 
-## Getting Started
+## How to play
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The game can be played by limitless ammount of players but they have to be divided in pairs. At the beginning of a game you have to enter name for every team and then sit in a circle in the same order you entered team names. For example, we have 3 teams. Player 1 from Team 1 sits first, then next to him Player 1 from Team 2, then Player 1 from Team 3 and then Player 2 from Team 1 etc. When you entered all names press start and you will get the main screen for the game. When everyone are ready press start and and the top of the screen you will see name of one team and that team plays now. There will be a word displayed under the name of current team. A player that is currently holding the phone has to explain that word without using the root of that word while other player from his team has to guess which word it is. If the player guesses the word correctly you press the green button under the displayed word. On the other hand, if the player can't guess the word or you used the root of the word for explanation press the red button. At the bottom of your screen you can see how many words you have to explain in order to pass the phone to the next team. In the beginning it is always 1 answer but for every word you failed to guess you have to explain one more. When you need 1 answer and you guess it, pass the phone to the next player. Their team name will be displayed at the top of the screen. Each round lasts for 25 * number of teams + 0-20 seconds. You don't see the timer so you have to be fast. After each round the leaderboard will be displayed with one life less for the team that was playing when time ran out. When one team reaches 0 lives they lose and don't play anymore.
